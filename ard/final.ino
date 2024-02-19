@@ -1,7 +1,5 @@
 #include <Wire.h>
-#include <Servo.h>
 #include <stdlib.h>
-Servo servo;
 
 void setup() {
   // put your setup code here, to run once:
