@@ -1,0 +1,6 @@
+<launch>
+  <node name="ros_facedetect" pkg="rospy_facedetect" type="ros_facedetect.py" output="screen"/>
+  <node name="ros_facedetect_listener" pkg="rospy_facedetect" type="ros_facedetect_listener.py" output="screen">
+    <param name="hello" value="/home/travis/hello.m4a" />
+  </node>
+</launch>
